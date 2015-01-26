@@ -17,10 +17,9 @@ $(function() {
         event.preventDefault();
     });
     
-    /* dropdown tam oturmadigi icin yorum satiri yaptim
     $('.dropdown-toggle').click(function() {
         $('.dropdown-menu').toggle();
-    });*/
+    });
 });
 
 

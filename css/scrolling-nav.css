@@ -36,78 +36,132 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-size: 5em;
-    font-weight: 700;
-}
-
-p {
-    font-size: 2em;
-}
+/* Intro Section */
 
 .intro-section {
     height: 100%;
-    padding-top: 150px;
-    padding-bottom: 50px;
+    padding-top: 75px;
     text-align: center;
     background: #F0E68C;
 }
 
-.about-section {
+.intro-section img {
+    width: 100px;
+    height: 100px;
+}
+
+.intro-section .jumbotron {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.intro-section .jumbotron h1 {
+    font-size: 2em;
+}
+
+.intro-section .jumbotron p {
+    font-size: 1em;
+}
+
+.intro-section .down-icon{
+    font-size: 20px;
+    color: #333
+}
+
+.intro-section .down-icon:hover, .down-icon:active{
+    color: DarkKhaki;
+}
+
+
+/* Follow Me Section */
+
+.follow-me-section {
     height: 100%;
-    padding-top: 150px;
-    padding-bottom: 50px;
+    padding-top: 75px;
     text-align: center;
     background: #BDB76B;
 }
 
-.follow-me li {
-    display: inline;
+.follow-me-section .row {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.follow-me a:active, a:visited, a:link {
+.follow-me-section .icon {
+    font-size: 50px;    
+}
+
+.follow-me-section a:link, a:visited {
     text-decoration: none;
     color: #333;
 }
 
-.follow-me a:hover, a:active {
-    text-decoration: none;
+.follow-me-section a:hover, a:active {
     color: Khaki;
 }
 
-.icon {
-    font-size: 80px;
-}
-
-.arrow-down {
-    align-content: flex-end;
-}
-
-.arrow-down a:active, a:visited, a:link {
-    text-decoration: none;
-    color: #333;
-}
-
-.arrow-down a:hover, a:active {
-    text-decoration: none;
-    color: DarkKhaki;
-}
-
-/* dropdown tam oturmadigi icin yorum satiri yaptim
 .dropdown-menu {
   font-size: 16px;
   margin-top: 5px;
   min-width: 105px;
-    
 }
 
 .dropdown-menu li a {
-  color: #898989;
+  color: #333;
+  padding: 6px 20px;
   font-weight: 300;
 }
-*/
+
+.dropdown-menu li a:hover {
+  color: DarkKhaki;
+}
+
+
+/* Display > 767px */
+
+@media(min-width:767px) {
+    
+    /* Intro Section */
+    
+    .intro-section {
+        padding-top: 150px;
+    }
+    
+    .intro-section img {
+        width: auto;
+        height: auto;
+    }
+    
+    .intro-section .jumbotron {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .intro-section .jumbotron h1 {
+        font-size: 4.75em;
+    }
+
+    .intro-section .jumbotron p {
+        font-size: 1.75em;
+    }
+    
+    .intro-section .down-icon{
+        font-size: 50px;
+    }
+    
+    /* Follow Me Section */
+    
+    .follow-me-section .row {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    
+    .follow-me-section .icon {
+        font-size: 100px;
+    }
+    
+    .follow-me-section h1 {
+        font-size: 4.75em;
+    }
+}
+
