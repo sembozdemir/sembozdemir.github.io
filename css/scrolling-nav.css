@@ -38,38 +38,47 @@ of those sections to manage the look and feel of the site. */
 
 /* Intro Section */
 
+.jumbotron{
+    background: rgba(238, 238, 238, 0.8)
+}
+
 .intro-section {
     height: 100%;
     padding-top: 75px;
     text-align: center;
-    background: #F0E68C;
+    background: url(http://i.imgur.com/WiuIIsw.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .intro-section img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .intro-section .jumbotron {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .intro-section .jumbotron h1 {
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .intro-section .jumbotron p {
-    font-size: 1em;
+    font-size: 1.25em;
 }
 
 .intro-section .down-icon{
-    font-size: 20px;
+    font-size: 50px;
     color: #333
 }
 
 .intro-section .down-icon:hover, .down-icon:active{
-    color: DarkKhaki;
+    color: black;
 }
 
 
@@ -79,7 +88,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 75px;
     text-align: center;
-    background: #BDB76B;
+    background: #eee;
 }
 
 .follow-me-section .row {
@@ -97,7 +106,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .follow-me-section a:hover, a:active {
-    color: Khaki;
+    color: black;
 }
 
 .dropdown-menu {
@@ -146,7 +155,7 @@ of those sections to manage the look and feel of the site. */
     }
     
     .intro-section .down-icon{
-        font-size: 50px;
+        font-size: 100px;
     }
     
     /* Follow Me Section */
