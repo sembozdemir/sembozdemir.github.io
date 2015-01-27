@@ -72,6 +72,10 @@ of those sections to manage the look and feel of the site. */
     font-size: 1.25em;
 }
 
+.intro-section .jumbotron .btn-follow{
+    color: #eee;
+}
+
 .intro-section .down-icon{
     font-size: 50px;
     color: #333
@@ -94,7 +98,6 @@ of those sections to manage the look and feel of the site. */
 .follow-me-section .row {
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 5px;
 }
 
 .follow-me-section .icon {
@@ -110,6 +113,10 @@ of those sections to manage the look and feel of the site. */
     color: black;
 }
 
+.follow-me-grid {
+    padding-top: 75px;
+}
+
 .dropdown-menu {
   font-size: 16px;
   margin-top: 5px;
@@ -123,7 +130,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .dropdown-menu li a:hover {
-  color: DarkKhaki;
+  color: black;
 }
 
 
@@ -162,12 +169,12 @@ of those sections to manage the look and feel of the site. */
     /* Follow Me Section */
     
     .follow-me-section .row {
-        padding-left: 150px;
-        padding-right: 150px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
     
     .follow-me-section .icon {
-        font-size: 100px;
+        font-size: 75px;
     }
     
     .follow-me-section h1 {
